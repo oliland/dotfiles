@@ -1,7 +1,4 @@
 import XMonad
-import XMonad.Hooks.ManageDocks
+import XMonad.Config.Gnome
 
-main = xmonad $ defaultConfig {
-        manageHook = manageDocks <+> manageHook defaultConfig,
-	layoutHook = avoidStruts $ layoutHook defaultConfig
-	}
+main = xmonad gnomeConfig
