@@ -1,4 +1,4 @@
-Herp Derp
+Welcome to my Dotfiles
 =========
 
 rake install
