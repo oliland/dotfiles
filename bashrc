@@ -9,7 +9,7 @@ alias sl='ls'
 PS1='[\u@\h \W]\$ '
 
 # shortcuts to oliland
-alias oliland='ssh oliland.net -p 8069'
+alias oliland='ssh oliland@oliland.net -p 8069'
 
 tunnel() {
   PORT=$1
