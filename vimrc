@@ -25,6 +25,8 @@ set backspace=indent,eol,start
 set laststatus=2
 set number
 set dir=~/.vimswap//,/var/tmp//,/tmp//,.
+set noerrorbells visualbell t_vb=
+autocmd GUIEnter * set visualbell t_vb=
 
 " Better regular expressions
 nnoremap / /\v
