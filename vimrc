@@ -1,7 +1,9 @@
 colorscheme molokai
+syntax on
 
 filetype off
 call pathogen#runtime_append_all_bundles()
+filetype plugin on
 filetype indent on
 
 " sanity mode
