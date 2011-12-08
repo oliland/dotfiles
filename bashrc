@@ -22,3 +22,6 @@ alias rejiggle='sudo ifconfig eth0 down && sudo ifconfig eth0 up'
 
 # RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+# Fuck you!
+alias please='sudo'

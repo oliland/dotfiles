@@ -6,6 +6,11 @@ call pathogen#runtime_append_all_bundles()
 filetype plugin on
 filetype indent on
 
+" tabs getting all up in my shit
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
 " sanity mode
 set nocompatible
 set modelines=0
@@ -58,3 +63,6 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
+
+" Word count for latex files is F3!
+map <F3> :w !detex \| wc -w<CR>
