@@ -2,7 +2,6 @@
 [ -z "$PS1" ] && return
 
 # Make ls pretty
-alias ls='ls --color=auto'
 alias sl='ls'
 
 # Differentiate root users
@@ -25,3 +24,9 @@ alias rejiggle='sudo ifconfig eth0 down && sudo ifconfig eth0 up'
 
 # Fuck you!
 alias please='sudo'
+
+# Homebrew
+# ???
+
+# OpenCV
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
