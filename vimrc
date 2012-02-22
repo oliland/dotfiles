@@ -1,8 +1,7 @@
 colorscheme molokai
-syntax on
 
-filetype off
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
+syntax on
 filetype plugin on
 filetype indent on
 
