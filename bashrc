@@ -1,8 +1,4 @@
-# Check for an interactive session
-[ -z "$PS1" ] && return
-
-# Make ls pretty
-alias ls='ls --color=auto'
+# ls sanity mode
 alias sl='ls'
 
 # Differentiate root users
