@@ -1,9 +1,6 @@
 # ls sanity mode
 alias sl='ls'
 
-# Differentiate root users
-PS1='[\u@\h \W]\$ '
-
 # shortcuts to oliland
 alias oliland='ssh oliland@oliland.net -p 8069'
 
@@ -21,3 +18,8 @@ alias rejiggle='sudo ifconfig eth0 down && sudo ifconfig eth0 up'
 
 # Fuck you!
 alias please='sudo'
+
+# For homebrew
+export PATH=$PATH:/usr/local/sbin/
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

@@ -26,7 +26,7 @@ alias rejiggle='sudo ifconfig eth0 down && sudo ifconfig eth0 up'
 alias please='sudo'
 
 # Homebrew
-# ???
+export PATH=$PATH:/usr/local/sbin/
 
 # OpenCV
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
