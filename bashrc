@@ -20,6 +20,6 @@ alias rejiggle='sudo ifconfig eth0 down && sudo ifconfig eth0 up'
 alias please='sudo'
 
 # For homebrew
-export PATH=$PATH:/usr/local/sbin/
+export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
