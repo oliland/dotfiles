@@ -3,6 +3,7 @@ alias sl='ls'
 
 # shortcuts to oliland
 alias oliland='ssh oliland@oliland.net -p 8069'
+alias america='ssh -D 8080 -f -C -q -N oli@gsremote.com'
 
 tunnel() {
   PORT=$1
