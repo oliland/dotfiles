@@ -24,3 +24,4 @@ alias please='sudo'
 export PATH=/usr/local/bin:/usr/local/sbin/:$PATH
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+[[ -s /Users/oliland/.nvm/nvm.sh ]] && . /Users/oliland/.nvm/nvm.sh # This loads NVM

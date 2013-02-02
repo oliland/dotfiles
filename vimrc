@@ -5,6 +5,9 @@ syntax on
 filetype plugin on
 filetype indent on
 
+" maxim mode
+imap jj <Esc>
+
 " tabs getting all up in my shit
 set expandtab
 set tabstop=2
@@ -30,6 +33,7 @@ set laststatus=2
 set number
 set dir=~/.vimswap//,/var/tmp//,/tmp//,.
 set noerrorbells visualbell t_vb=
+set noswapfile
 autocmd GUIEnter * set visualbell t_vb=
 
 " Better regular expressions
