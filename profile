@@ -1,3 +1,20 @@
+# First load paths, then load fancy stuff only if we're in an interactive session
+
+# RVM
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+# Homebrew
+export PATH=/usr/local/bin:$PATH
+
+# OpenCV
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
+
+# NVM
+[[ -s /Users/oli/.nvm/nvm.sh ]] && . /Users/oli/.nvm/nvm.sh
+
+# Java
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home
+
 # Check for an interactive session
 [ -z "$PS1" ] && return
 
@@ -18,24 +35,6 @@ tunnel() {
 
 # For when the virtual machine forgets where it is
 alias rejiggle='sudo ifconfig eth0 down && sudo ifconfig eth0 up'
-
-# RVM
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
-# Fuck you!
-alias please='sudo'
-
-# Homebrew
-export PATH=/usr/local/bin:$PATH
-
-# OpenCV
-export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
-
-
-[[ -s /Users/oli/.nvm/nvm.sh ]] && . /Users/oli/.nvm/nvm.sh # This loads NVM
-
-# Java
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home
 
 # {{{
 # Node Completion - Auto-generated, do not touch.
