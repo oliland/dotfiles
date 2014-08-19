@@ -72,3 +72,5 @@ export PATH=$/usr/local/bin:$PATH
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+#
+setopt no_sharehistory
