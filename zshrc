@@ -55,6 +55,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+export PATH="$PATH:$HOME/phab/arcanist/bin/"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -74,4 +75,8 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 setopt no_sharehistory
+
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=$HOME/oli/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
 
